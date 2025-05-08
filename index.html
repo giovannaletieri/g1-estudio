@@ -6,117 +6,108 @@
     <title>Quem sou eu?</title>
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <h1>Quem sou eu?</h1>
+
+  <h1>Quem sou eu?</h1>
+
     <div class="container">
+
       <h2>Boas vindas a essa jornada que estamos prestes a embarcar.</h2>
       <h2>Primeiro, uma breve ambientação: são 17h da tarde de uma sexta-feira qualquer, estamos saindo da última aula da semana e entramos no ônibus. Um longo engarrafamento nos espera pela cidade do Rio de Janeiro.</h2>
 
-    <!-- PERGUNTA 1 -->
       <div class="pergunta" id="pergunta1">
-          <h3>O que será que eu estaria fazendo a essa hora ano passado? Com certeza não estaria em um ônibus saindo da Gávea</h3>
-          <button onclick="responder(1, 'filme')">Assistindo um filme</button>
-          <button onclick="responder(1, 'estudo')">Estudando</button>
+       <h3>O que será que eu estaria fazendo a essa hora ano passado? Com certeza não estaria em um ônibus saindo da Gávea</h3>
+       <button onclick="responder(1, 'filme')">Assistindo um filme</button>
+       <button onclick="responder(1, 'estudo')">Estudando</button>
+
+       <p id="resultado1"  class="resultado"></p>
       </div>
 
-      <p id="resultado1"  class="resultado"></p> <!--add nas outras por isso nao funciona-->
     </div>
 
-     <!-- PERGUNTA 2
-  <div class="pergunta" id="pergunta2">
-    <p>2. Quando eu sou mais produtiva?</p>
-    <button onclick="responder(2, 'manha', 'resultado2')">De manhã</button>
-    <button onclick="responder(2, 'noite', 'resultado2')">À noite</button>
-  </div>
-
-  <p id="resultado2"  class="resultado"></p>
-   -->
-   <div class="container">
-    <h2>Bem, seja lá o que for, não faço mais isso às sextas-feiras, agora eu sento em um ônibus e vejo o mundo passando pela janela.</h2>
-    <h2>Chegamos à Lagoa Rodrigo de Freitas, um lugar que eu só tinha visto uma vez antes de passar a ver todo dia. E se você já passou por lá às 17h de carro você viu como um paraíso pode virar um inferno.</h2>
-
-    <div class="pergunta" id="pergunta2">
-      <h3>Mas o caminho também pode ser fonte de inspiração, o que você acha que já me deu ideias para um projeto?</h3>
-      <button onclick="responder(2, 'ciclista')">Um ciclista passando.</button>
-      <button onclick="responder(2, 'árvore')">Uma árvore diferente.</button>
-
-      <p id="resultado2"  class="resultado"></p>
-  </div>
-
-
-    <!--qual foi meu primeiro trabalho na faculdade?-->
-    <!--qual a maior dificuldade em trabalhos-->
-   </div>
 
     <div class="container">
-    <h2>Túnel Rebouças... Você sabe da onde vem esse nome? Eu não, não sei nada dessa cidade. O Rio sempre esteve ali do lado para quando eu precisasse dele. Estar aqui todo dia agora se tornou bem engraçado, são lugares que eu vejo mas que não vivo.</h2>
-    <h2>Nascida e criada em Icaraí, um bairro bem amigável para pedestres, esse novo estilo de vida tem sido bem estranho. Sinto falta de andar pela cidade, e com isso achei minha cidade substituta: a PUC. Já rodei muito por aqui, mas ainda tenho lugares a descobrir</h2>
- 
+     
+      <h2>Bem, seja lá o que for, não faço mais isso às sextas-feiras, agora eu sento em um ônibus e vejo o mundo passando pela janela.</h2>
+      <h2>Chegamos à Lagoa Rodrigo de Freitas, um lugar que eu só tinha visto uma vez antes de passar a ver todo dia. E se você já passou por lá às 17h de carro você viu como um paraíso pode virar um inferno.</h2>
 
-    <div class="pergunta" id="pergunta3">
-      <h3>Qual foi o lugar mais inusitado que eu encontrei?</h3>
-      <button onclick="responder(3, 'terraco')">Um terraço</button>
-      <button onclick="responder(3, 'aquario')">Um aquário</button>
+      <div class="pergunta" id="pergunta2">
+       <h3>Mas o caminho também pode ser fonte de inspiração, o que você acha que já me deu ideias para um projeto?</h3>
+       <button onclick="responder(2, 'ciclista')">Um ciclista passando.</button>
+       <button onclick="responder(2, 'árvore')">Uma árvore diferente.</button>
 
-      <p id="resultado3"  class="resultado"></p>
-  </div>
-    </div>
- 
-
-    <div class="container">
-    <h2>Agora a gente chega a essa longa rua que eu não sei o nome. Talvez você me ache burra no final disso aqui mas talvez eu esteja mais para uma turista que não se importa em parecer local.</h2>
-    <h2>O fluxo aqui anda rápido mas no final chegamos na pior parte: a subida da ponte. Muita gente na mesma situação, tentando chegar em casa enquanto o tempo passa.</h2>
-    <h2>Muitos carros... se eu pudesse eu viria de carro (será?) mas me falta a carteira.</h2>
-    
-    <div class="pergunta" id="pergunta4">
-    <h3>E você? Gosta de carros? Dirige?</h3>
-    <button onclick="responder(4, 'nao')">Não, morro de medo de dirigir...</button>
-    <button onclick="responder(4, 'sim')">Sim, adoro carros.</button>
-
-    <p id="resultado4"  class="resultado"></p>
-    </div>
-
-    </div>
-
-    <div class="container">
-    <h2>Sempre tem muitos na Ponte Rio-Niterói, antigamente quando eu estava aqui, eu estava sempre dentro de um desses também, mas agora é mais raro.</h2>
-    <h2>O que essa ultima pergunta tinha a ver comigo? Não sei, queria conhecer um pouco de você também! Mas sobre mim: eu gosto de carros, não do motor ou essas coisas de engenharia. Gosto da aparência, desde pequena eu gostava de imaginar que carros tinham rostos, tipo a frente do carro, alguns parecem ratos, outros parecem estar com raiva (eu juro que não sou maluca).</h2>
-    <h2>Deve existir isso também né, design automotivo quem sabe eu vá trabalhar com isso. </h2>
-
-    <!--ux / produto-->
-
-    <div class="pergunta" id="pergunta5">
-      <h3>Qual área no design você acha que eu quero seguir?</h3>
-      <button onclick="responder(5, 'produto')">Produto!</button>
-      <button onclick="responder(5, 'ux')">Experiência digital!</button>
-
-      <p id="resultado5"  class="resultado"></p>
+       <p id="resultado2"  class="resultado"></p>
       </div>
 
     </div>
 
     <div class="container">
-    <h2>Chegamos à Niterói (finalmente) já cansou desse quiz? Pois é, eu também! Mas não conte vitória tão cedo, o ônibus ainda vai dar volta em 3 bairros antes de chegar à minha casa. Que maravilha!</h2>
-    <h2>A volta é sempre muito desgastante, mas passar por esses bairros em outra perspectiva me traz de volta um pouco da criatividade que eu perco no caminho.</h2>
-    <h2>Me trazem memórias desse tempo que eu criava sem preocupações e via o mundo do meu jeito.</h2>
-    <h2>Desde o primeiro dia, e o primeiro trabalho eu soube que estava entrando em um lugar que me reconectaria com essa versão de mim.</h2>
     
-    <div class="pergunta" id="pergunta6">
-      <h3>Qual você acha que foi meu primeiro trabalho?</h3>
-      <button onclick="responder(6, 'colagem')">Uma colagem que ficou muito ruim.</button>
-      <button onclick="responder(6, 'desenho')">Um desenho que ficou muito ruim.</button>
+      <h2>Túnel Rebouças... Você sabe da onde vem esse nome? Eu não, não sei nada dessa cidade. O Rio sempre esteve ali do lado para quando eu precisasse dele. Estar aqui todo dia agora se tornou bem engraçado, são lugares que eu vejo mas que não vivo.</h2>
+      <h2>Nascida e criada em Icaraí, um bairro bem amigável para pedestres, esse novo estilo de vida tem sido bem estranho. Sinto falta de andar pela cidade, e com isso achei minha cidade substituta: a PUC. Já rodei muito por aqui, mas ainda tenho lugares a descobrir</h2>
+ 
+      <div class="pergunta" id="pergunta3">
+       <h3>Qual foi o lugar mais inusitado que eu encontrei?</h3>
+       <button onclick="responder(3, 'terraco')">Um terraço</button>
+       <button onclick="responder(3, 'aquario')">Um aquário</button>
 
-      <p id="resultado6"  class="resultado"></p>
+       <p id="resultado3"  class="resultado"></p>
+      </div>
+
+    </div>
+ 
+
+    <div class="container">
+      <h2>Agora a gente chega a essa longa rua que eu não sei o nome. Talvez você me ache burra no final disso aqui mas talvez eu esteja mais para uma turista que não se importa em parecer local.</h2>
+      <h2>O fluxo aqui anda rápido mas no final chegamos na pior parte: a subida da ponte. Muita gente na mesma situação, tentando chegar em casa enquanto o tempo passa.</h2>
+      <h2>Muitos carros... se eu pudesse eu viria de carro (será?) mas me falta a carteira.</h2>
+    
+      <div class="pergunta" id="pergunta4">
+       <h3>E você? Gosta de carros? Dirige?</h3>
+       <button onclick="responder(4, 'nao')">Não, morro de medo de dirigir...</button>
+       <button onclick="responder(4, 'sim')">Sim, adoro carros.</button>
+
+       <p id="resultado4"  class="resultado"></p>
+      </div>
+
     </div>
 
-    <h2>A verdade é que essa jornada é muito mais do que voltar para casa, é reencontrar num lugar diferente alguém que já estava esquecida.</h2>
+    <div class="container">
+      <h2>Sempre tem muitos na Ponte Rio-Niterói, antigamente quando eu estava aqui, eu estava sempre dentro de um desses também, mas agora é mais raro.</h2>
+      <h2>O que essa ultima pergunta tinha a ver comigo? Não sei, queria conhecer um pouco de você também! Mas sobre mim: eu gosto de carros, não do motor ou essas coisas de engenharia. Gosto da aparência, desde pequena eu gostava de imaginar que carros tinham rostos, tipo a frente do carro, alguns parecem ratos, outros parecem estar com raiva (eu juro que não sou maluca).</h2>
+      <h2>Deve existir isso também né, design automotivo quem sabe eu vá trabalhar com isso. </h2>
+
+      <div class="pergunta" id="pergunta5">
+       <h3>Qual área no design você acha que eu quero seguir?</h3>
+       <button onclick="responder(5, 'produto')">Produto!</button>
+       <button onclick="responder(5, 'ux')">Experiência digital!</button>
+
+       <p id="resultado5"  class="resultado"></p>
+      </div>
+
     </div>
 
+    <div class="container">
+      <h2>Chegamos à Niterói (finalmente) já cansou desse quiz? Pois é, eu também! Mas não conte vitória tão cedo, o ônibus ainda vai dar volta em 3 bairros antes de chegar à minha casa. Que maravilha!</h2>
+      <h2>A volta é sempre muito desgastante, mas passar por esses bairros em outra perspectiva me traz de volta um pouco da criatividade que eu perco no caminho.</h2>
+      <h2>Me trazem memórias desse tempo que eu criava sem preocupações e via o mundo do meu jeito.</h2>
+      <h2>Desde o primeiro dia, e o primeiro trabalho eu soube que estava entrando em um lugar que me reconectaria com essa versão de mim.</h2>
+    
+      <div class="pergunta" id="pergunta6">
+       <h3>Qual você acha que foi meu primeiro trabalho?</h3>
+       <button onclick="responder(6, 'colagem')">Uma colagem que ficou muito ruim.</button>
+       <button onclick="responder(6, 'desenho')">Um desenho que ficou muito ruim.</button>
 
+       <p id="resultado6"  class="resultado"></p>
 
+      </div>
 
+      <h2>A verdade é que essa jornada é muito mais do que voltar para casa, é reencontrar num lugar diferente alguém que já estava esquecida.</h2>
 
+    </div>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
+
 </body>
 </html>

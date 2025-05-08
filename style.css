@@ -31,32 +31,27 @@
  }
 
  .container {
-    /*background-color: rgba(0, 0, 0, 0.6); /* fundo preto com 60% de opacidade */
-    /*padding: 20px;*/
     border-radius: 10px;
     color: black;
     padding-left: 200px;
     padding-right: 200px;
-    /*max-width: 60%;*/
     margin: auto;
-    /*padding-bottom: 40px;*/
-
   }
 
   button {
-   background-color: #0077b6; /* cor de fundo */
-   color: white;              /* cor do texto */
-   padding: 10px 20px;        /* espaçamento interno */
-   border: none;              /* sem borda */
-   cursor: pointer;           /* muda o cursor ao passar por cima */
-   font-size: 16px;           /* tamanho da fonte */
+   background-color: #0077b6; 
+   color: white;             
+   padding: 10px 20px;        
+   border: none;             
+   cursor: pointer;          
+   font-size: 16px;           
    margin-left: 5px;
    border-radius: 4%;
    font-family: Arial, Helvetica, sans-serif;
   }
 
   button:hover {
-   background-color: #10628e; /* muda a cor quando passa o mouse */
+   background-color: #10628e; 
    padding: 11px 21px;
    font-size: 18px;
  }
